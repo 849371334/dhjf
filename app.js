@@ -34,6 +34,10 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    latitude: '39.90',
+    longitude: '116.38',
+    mapUrl: 'https://apis.map.qq.com/ws/geocoder/v1/?location=',
+    mapKey: '&key=VFQBZ-32B34-X4PU5-DG735-QCTBZ-VSF6Q&get_poi=1',
   }
 })

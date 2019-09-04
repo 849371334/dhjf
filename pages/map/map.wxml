@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class='title'>
+    考勤签到
+</view>
+<view>{{address}}</view>
+ <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" style="width: 100%; height: 150px;"></map>
+ <view>{{wifiTitle}}</view>
